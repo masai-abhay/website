@@ -1,0 +1,326 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+  color: var(--ui-color-text-secondary,#525c69);
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    
+}
+
+
+@media screen and (max-width: 767px) {
+   
+}
+
+
+@media screen and (max-width: 480px) {
+   
+}
+.contanier{
+    
+    display: flex;
+    
+}
+
+
+
+
+.box1{
+   
+    height: 738px;
+    width: 45%;
+    position: sticky;
+    top:1px;
+    
+}
+
+.box1 img{
+    width: 100%;
+    display: block;
+}
+
+.backtosite{
+   
+  position: absolute;
+  top :72px;
+  left:510px;
+  font-size: 17px;
+  background-color: #67d8fe;  /* rgb(127, 219, 255);*/
+  font-size:20px;
+  gap: 10px;
+  color:  #fff;
+  border-radius: 200px;
+  
+}
+
+.select{
+    position: absolute;
+    bottom :36px;
+    left:444px;
+    border:white;
+   background-color:#67d8fe;
+   height: 40px;
+   width: 24%;
+   font-size:15px ;
+   color: white;
+   cursor: pointer;
+}
+.select option{
+    background-color: white;
+    font-size: 15px;
+    
+    
+}
+
+
+    /* Box 2 */
+
+.box2{
+  
+   height: 930px;
+   
+   width: 60%;
+   background-color:white;
+   padding: 20px;
+   
+    
+}
+
+
+.Sbox-1{
+   
+    background-color:white;
+    height:850px ;
+    width: 80%;
+    /*padding: 10px;*/
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,monospace;
+    
+
+    
+}
+
+
+
+
+.selector{
+   
+    height: 60px;
+    width: 40%;
+}
+
+
+
+  
+
+
+
+
+
+input[type="text"],
+
+textarea {     /*input tag number*/
+  width: 70%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+  
+}
+
+#flagSelector{             /*all country number*/
+    width: 20%;  
+    height: 50px;
+    background-color: white; 
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+
+#flagSelector option{
+    font-size: 16px;
+}
+
+.small{             /* the contaner of input tag and selecter */
+    display: flex; 
+    justify-content: space-around;
+    border: 3px solid rgb(208, 202, 202);
+    border-radius: 5px;
+    
+}
+
+#p{
+    text-align: center;
+}
+
+.allicon{
+    border: 1px solid black;
+     height: 150px;
+     border-radius: 40px;
+     background-color: rgb(248, 248, 248);
+    
+}
+
+
+.logos{
+   
+    height: 75px;
+    width: 75%;
+    display: flex;
+
+}
+
+            /*qrcode img*/
+.qrcode{
+    
+    height: 120px;
+    width: 20%;
+    margin-left: 500px;
+    margin-top: -133px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.qrcode img{
+    max-width: 100px;
+    height: auto;
+    transition: transfom 0.3;
+
+}
+
+.qrcode:hover img{
+     transform: scale(1.1);
+}
+
+      /*all box and icon*/
+
+#facebook{          /*heigth is use to  div hight*/
+    border-radius: 100px;
+    padding: 7px;
+    /*background-color: rgb(34, 81, 123);*/
+    height: 70px;
+    cursor: pointer;
+  
+
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+#facebook img{
+     border-radius: 100px;
+     size: 90px;
+
+     transition: transfom 0.3;
+     
+}
+
+#facebook:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+       /*box two icon */
+
+#partlogo{
+
+   
+    height: 70px;
+    width: 75%;  
+   padding-left: 150px;
+   display: flex;
+   gap: 30px;
+    
+}
+
+#partlogo img{
+    
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+#twitter{
+    
+    position: relative;
+    overflow: hidden;
+
+}
+
+#twitter img{
+      border-radius: 100px;
+    transition: transfom 0.3;
+}
+
+#twitter:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+    /* next button and forgot text*/
+.nextf{
+    
+    height: 60px;
+    width:65%;
+    display: flex;
+    margin:auto;
+    justify-content: space-between;  
+}
+
+
+button{    /*button*/
+    height: 55px;
+    width: 40%;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color:greenyellow;
+    border: none;
+    transition: background-color 0.3s;
+    color: white;
+    
+}
+
+ button:hover{
+    background-color: rgb(148, 244, 6);
+ }
+
+
+.nextf p{
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+
+
+/* needhelp text*/
+
+#needhelp{
+     
+     color:rgb(56, 197, 244);
+     margin-left: 250px;
+     cursor: pointer;
+}
+
+/*--------------------------------------------NEXT PAGE----------------------------------------------------------------------------- */
+

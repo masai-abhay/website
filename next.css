@@ -1,0 +1,324 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Montserrat, "Helvetica Neue", Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif; 
+  
+
+}
+
+/*.main {
+    border: 2px solid blue;
+    height: 800px;
+    width: 100%;
+   
+}*/
+
+
+@media screen and (min-width: 768px) {
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    
+   
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    
+   
+
+
+}
+
+.contanier1{
+   
+    height: 100px;
+    width: 100%;
+    padding: px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: sticky;
+    top:1px;
+    background-color:white;
+}
+    
+    
+
+
+
+.contanier2{
+   
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    background-color:white;
+    
+}
+
+.img1{
+   
+    height: 85px;  /*80px;*/
+    width: 20% ;  /*20%;*/
+    margin-left: 30px;   
+}
+.img1 img{
+      height:80px ;
+      margin-left: 90px;
+      
+}
+
+
+.img2{
+    
+    height: 80px;  /*80px;*/
+    width: 40% ;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 50px;
+
+    
+}
+
+#child{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.img3{
+    
+    height: 80px;  /*80px;*/
+    width: 30% ;
+    display:flex;
+    margin-left: 50px;
+    
+   
+}
+.img3 img{
+      height:35px;
+      margin-top: 25px;
+      margin-left: 20px;
+}                    
+                  /*2 one*/
+
+.button1{
+    height: 43px;
+    width: 33%;
+    border-radius: 50px;
+    margin-left: 10px;
+    font-weight: 600;
+    background-color: greenyellow;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+}
+
+#login{
+    height: 23px;
+    margin-left: 130px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+#langu{
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+
+.parent1{
+     
+     height: 580px;
+     width: 100%;
+     padding: 0px;
+     margin-bottom: 20px;
+    
+  
+    
+}
+.parent1 img{
+    height:570px;
+   
+    padding-left: 200px;
+  
+    
+}
+
+.button2{
+    height: 47px;
+    width: 16%;
+    text-align: center;
+    margin-left: 250px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color:greenyellow;
+    border: none;
+    transition: background-color 0.3s;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.logos{
+    
+    height: 280px ;
+    width: 100%;
+    
+}
+
+
+
+.logos img{
+    width: 100%;
+    
+   
+}
+
+.what{
+    
+    height: 640px;
+    width: 100%;
+    display: flex;
+}
+
+
+#para1 img{
+    height: 570px;
+    width: 130%;
+   
+}
+
+.button3{
+    height: 43px;
+    width: 23%;
+    border-radius: 50px;
+    margin-left: 80px;
+    font-weight: 600;
+    color: white;
+    background-color: greenyellow;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    margin-bottom: 60px;
+
+}
+
+#achive h1{
+    
+    height: 100px;
+    width: 100%;
+    text-align: center ;
+    padding: 80px;
+
+}
+
+.four{
+   
+    height: 500px;
+    width:100%;
+    display:flex;
+    padding: 20px;
+    
+}
+
+.four:hover img{
+    color: #01121d;
+    background-color:#041425 ;
+    filter: grayscale(100%)
+      
+}
+
+.four img{
+    width: 80%;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(99, 34, 34, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: box-shadow .2s ease-in-out;
+  /*box-shadow: 0px 0px 15px 0px rgba(12,42,87,0);*/
+  
+
+}
+
+a:hover, a:active, a:focus {
+    color: #008ff0;
+    text-decoration: none;
+}
+
+#fivelogo {
+   
+    height: 300px;
+    width: 100%;
+    padding: 30px;
+}
+#fivelogo img{
+    height: 200px;
+    width:100%
+
+
+}
+
+.ready{
+    
+    height: 200px;
+    width: 60%;
+    margin-left: 300px;
+    border-radius: 20px;
+    background-color:  #0d6efd;;
+    
+}
+
+.ready p{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px ;
+    color: white;
+}
+
+.button4{
+    height: 43px;
+    width: 23%;
+    border-radius: 50px;
+    margin-left: 350px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+}
+
+.last{
+    
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#box{
+   
+    height: 600px;
+    width: 10%;
+  
+
+}
+
+.last2{
+   
+    height: 200px;
+
+}
+
+.last2 img{
+    height: 200px;
+    width: 100%;
+}
